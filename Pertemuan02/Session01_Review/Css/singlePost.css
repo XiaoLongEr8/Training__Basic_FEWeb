@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+html {
+  background-color: salmon;
+}
+
+.navbarContainer {
+  display: flex;
+  align-items: baseline;
+  background-color: rgb(246, 93, 93);
+}
+
+.navbarMenu {
+  margin-left: 15px;
+}
+
+.navbarMenu a {
+  text-decoration: none;
+}
+
+article {
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+p{
+  font-size: 1.2em;
+}

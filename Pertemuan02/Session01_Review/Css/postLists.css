@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: salmon;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+h3 {
+  font-size: xx-large;
+}
+
+h5 {
+  font-size: larger;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.navbarContainer {
+  display: flex;
+  align-items: baseline;
+  background-color: rgb(246, 93, 93);
+}
+
+.navbarMenu {
+  margin-left: 15px;
+}
+
+.navbarMenu a {
+  text-decoration: none;
+}
+
+.HeroSection {
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+article {
+  margin-top: 2%;
+}
