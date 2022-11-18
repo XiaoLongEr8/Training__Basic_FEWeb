@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pertemuan 3</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <button type="button" class="button">
+      <a href="https://launching.bncc.net/">Click Me!!!</a>
+    </button>
+
+    <button type="button" class="eventHandler" onclick="helloWorld()">
+      Click Me!!!
+    </button>
+
+    <!--  -->
+
+    <h2 id="targetManipulation">12345</h2>
+
+    <button type="button" onclick="show()">Show</button>
+
+    <button type="button" onclick="hide()">Hide</button>
+
+    <!-- !DOM -->
+
+    <h1 id="heading1" class="heading1"></h1>
+
+    <form
+      name="myform"
+      method="post"
+      action=""
+      onsubmit="return validateform()"
+    >
+      <label for="">Name: </label>
+      <input type="text" name="name" />
+      <br />
+      <label for="">password</label>
+      <input type="password" name="password" />
+      <br />
+      <input type="submit" value="register" />
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
